@@ -1,0 +1,34 @@
+{
+  "name": "vue-cli-plugin-vconsole",
+  "version": "0.1.0",
+  "description": "A VConsole Plugin for vue-cli@3.0.",
+  "main": "index.js",
+  "repository": "git@github.com:flykiro/vue-cli-plugin-vconsole.git",
+  "author": "flykiro@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "commit": "npx git-cz"
+  },
+  "dependencies": {
+    "vconsole-webpack-plugin": "^1.4.0"
+  },
+  "devDependencies": {
+    "commitizen": "^2.10.1",
+    "cz-conventional-changelog": "^2.1.0",
+    "eslint": "^5.0.1"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "standard"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}
