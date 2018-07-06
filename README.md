@@ -5,3 +5,6 @@ VConsole Plugin for vue-cli@3.0
 ``` bash
 vue add vconsole
 ```
+
+## Tip
+This plugin is being developed.

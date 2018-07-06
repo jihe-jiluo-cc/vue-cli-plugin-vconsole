@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-vconsole",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "A VConsole Plugin for vue-cli@3.0.",
   "main": "index.js",
   "repository": "git@github.com:flykiro/vue-cli-plugin-vconsole.git",

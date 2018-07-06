@@ -1,14 +1,11 @@
 
 const VConsolePlugin = require('vconsole-webpack-plugin')
 
-module.exports = (api, projectOptions = {}) => {
-  api.chainWebpack(webpackConfig => {
-    /* eslint-disable indent */
-    webpackConfig
-      .plugin('vconsole')
-        .use(VConsolePlugin, Object.assign({
-          enable: true
-        }, projectOptions))
-    /* eslint-enable indent */
+module.exports = (api, projectOptions) => {
+  const {vconsoleOptions} = projectOptions.pluginOptions
+  api.configureWebpack(webpackConfig => {
+    webpackConfig.plugins.push(new VConsolePlugin(Object.assign({
+      enable: true
+    }, vconsoleOptions)))
   })
 }
