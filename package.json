@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-vconsole",
-  "version": "1.0.0-alpha",
+  "version": "1.0.1",
   "description": "VConsole Plugin for vue-cli@3.0",
   "keywords": [
     "vue",
