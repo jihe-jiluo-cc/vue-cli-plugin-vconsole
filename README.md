@@ -1,4 +1,8 @@
 # vue-cli-plugin-vconsole
+
+[![npm version](https://img.shields.io/npm/v/vue-cli-plugin-vconsole.svg?style=flat-square)](https://www.npmjs.org/package/vue-cli-plugin-vconsole)
+[![npm downloads](https://img.shields.io/npm/dm/vue-cli-plugin-vconsole.svg?style=flat-square)](http://npm-stat.com/charts.html?package=vue-cli-plugin-vconsole)
+
 VConsole Plugin for vue-cli@3.0
 
 ## Install
